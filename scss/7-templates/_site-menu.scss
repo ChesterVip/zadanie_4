@@ -2,8 +2,9 @@
 .site-menu{
     .site-menu__div{
         position: absolute;
-        height: 95vh;
-        width: 95vw;
+        // height: 95vh;
+        // width: 95vw;
+        transform: scale(2);
     }
     p{
         display: inline-block;

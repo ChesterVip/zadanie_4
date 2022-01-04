@@ -485,6 +485,16 @@ p {
   }
 }
 
+.site-menu .site-menu__div {
+  position: absolute;
+  transform: scale(2);
+}
+.site-menu p {
+  display: inline-block;
+  padding: 10vw;
+  margin-top: 10vh;
+}
+
 .text-color-white {
   color: #eff0f3;
 }

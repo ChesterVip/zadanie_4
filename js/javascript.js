@@ -1,8 +1,10 @@
-const divMenu = [...document.getElementsByClassName('image-box')];
 
-// const open = (this){
-//     divMenu[this].classList.add('')
-// }
+const divMenu = [...document.querySelectorAll('.image-box')];
+
+const open = () => {
+    divMenu.forEach(item => item.classList.add('site-menu__div'));
+    console.log('ok');
+}
 
 
-// divMenu[this].addEventListener('click', open)
+divMenu.forEach(item => item.addEventListener('click', open));
